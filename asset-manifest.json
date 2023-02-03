@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/teaching-technology/static/css/main.38a7963c.css",
+    "main.js": "/teaching-technology/static/js/main.c7db6e2e.js",
+    "static/js/787.86e7b949.chunk.js": "/teaching-technology/static/js/787.86e7b949.chunk.js",
+    "static/media/pic1.png": "/teaching-technology/static/media/pic1.88b8b64470a304727ca9.png",
+    "static/media/BTCPIC.png": "/teaching-technology/static/media/BTCPIC.914d8d53a866ec2db4f3.png",
+    "static/media/py.png": "/teaching-technology/static/media/py.9f7f638274eedaf1e4cb.png",
+    "static/media/go.png": "/teaching-technology/static/media/go.291d1d46550425201a0d.png",
+    "static/media/c++.png": "/teaching-technology/static/media/c++.89046b116b46f42d0397.png",
+    "static/media/bsc.png": "/teaching-technology/static/media/bsc.60a0009622ab6d3dc9b2.png",
+    "static/media/c++.webp": "/teaching-technology/static/media/c++.40030488e37a1e1248f3.webp",
+    "static/media/REACT.png": "/teaching-technology/static/media/REACT.ee6f592144d55b3cebae.png",
+    "static/media/react.webp": "/teaching-technology/static/media/react.a4b49495432afa31fb44.webp",
+    "static/media/python.webp": "/teaching-technology/static/media/python.a5b0a056fc33319e6c23.webp",
+    "static/media/btc.webp": "/teaching-technology/static/media/btc.5948d5f2c0adeba324cd.webp",
+    "static/media/btc.png": "/teaching-technology/static/media/btc.2b164fcfbc3cd9a1b3c2.png",
+    "static/media/jsbtcpayment.png": "/teaching-technology/static/media/jsbtcpayment.53d8974aa450265321ae.png",
+    "static/media/gobtcpayment.png": "/teaching-technology/static/media/gobtcpayment.3121e54d8b4d6bc94195.png",
+    "static/media/bnb.png": "/teaching-technology/static/media/bnb.47b5a7bd59691d85b565.png",
+    "static/media/c.png": "/teaching-technology/static/media/c.f2580fda079ae4ff7b82.png",
+    "static/media/golang.webp": "/teaching-technology/static/media/golang.f62ab341ac05297d5933.webp",
+    "static/media/pybtc.png": "/teaching-technology/static/media/pybtc.b1e12789eaf360527106.png",
+    "static/media/pyoutline.png": "/teaching-technology/static/media/pyoutline.7b193c8a1d42ecd04eeb.png",
+    "static/media/bnboutline.png": "/teaching-technology/static/media/bnboutline.3ddb614e4b80066787b7.png",
+    "static/media/react-outline.png": "/teaching-technology/static/media/react-outline.53e303e75ff2940b1eb3.png",
+    "static/media/bnb.webp": "/teaching-technology/static/media/bnb.4105e1d609f3ce6202b2.webp",
+    "static/media/coutline.PNG": "/teaching-technology/static/media/coutline.f379d3c00dc9809878be.PNG",
+    "static/media/btcoutline.png": "/teaching-technology/static/media/btcoutline.741f44b89898f2db135f.png",
+    "static/media/gooutline.png": "/teaching-technology/static/media/gooutline.6c3dedba02533733a440.png",
+    "index.html": "/teaching-technology/index.html",
+    "main.38a7963c.css.map": "/teaching-technology/static/css/main.38a7963c.css.map",
+    "main.c7db6e2e.js.map": "/teaching-technology/static/js/main.c7db6e2e.js.map",
+    "787.86e7b949.chunk.js.map": "/teaching-technology/static/js/787.86e7b949.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.38a7963c.css",
+    "static/js/main.c7db6e2e.js"
+  ]
+}
