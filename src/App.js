@@ -1,4 +1,4 @@
-import { Routes } from 'react-router';
+import { Routes} from 'react-router';
 import './App.css';
 import { Route } from 'react-router';
 import { Home } from './pages/Home';
@@ -11,8 +11,9 @@ import { Python } from './pages/Python';
 import {BNB} from './pages/BNB';
 function App() {
   return( 
+
   <Routes>
-    <Route path="/" element={<Home />} />
+    <Route exact path="/" element={<Home />} />
     <Route path="/404" element={<NotFound />} />
     <Route path="/go" element={<Golang />}/>
     <Route path="/c++" element={<Cplusplus />}/>
