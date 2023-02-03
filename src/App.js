@@ -1,6 +1,6 @@
 import { Routes} from 'react-router';
 import './App.css';
-import { Route } from 'react-router';
+import { Route } from 'react-router-dom';
 import { Home } from './pages/Home';
 import {Cplusplus} from './pages/C++';
 import {Bitcoin} from './pages/Bitcoin';
@@ -9,10 +9,11 @@ import {Golang} from './pages/Golang';
 import {NotFound} from './pages/NotFound';
 import { Python } from './pages/Python';
 import {BNB} from './pages/BNB';
+
 function App() {
   return( 
 
-  <Routes>
+  <Routes >
     <Route exact path="/" element={<Home />} />
     <Route path="/404" element={<NotFound />} />
     <Route path="/go" element={<Golang />}/>
@@ -21,8 +22,9 @@ function App() {
     <Route path="/py" element={<Python />}/>
     <Route path="/btc" element={<Bitcoin />}/>
     <Route path="/bnb" element={<BNB />} />
+    <Route path="/teaching-technology" element={<Home />} />
 
-  </Routes>
+</Routes>
     
   )
 }

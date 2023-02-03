@@ -11,7 +11,7 @@ const Topbar = () => {
   return (
  <div>
   <Navbar bg="light" variant="light">
-          <Navbar.Brand >
+          <Navbar.Brand href="/" >
             
             <h1>Teaching Technology</h1>
           
