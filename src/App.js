@@ -1,25 +1,29 @@
-import logo from './logo.svg';
+import { Routes } from 'react-router';
 import './App.css';
-
+import { Route } from 'react-router';
+import { Home } from './pages/Home';
+import {Cplusplus} from './pages/C++';
+import {Bitcoin} from './pages/Bitcoin';
+import { JavaScript } from './pages/JavaScript';
+import {Golang} from './pages/Golang';
+import {NotFound} from './pages/NotFound';
+import { Python } from './pages/Python';
+import {BNB} from './pages/BNB';
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  return( 
+  <Routes>
+    <Route path="/" element={<Home />} />
+    <Route path="/404" element={<NotFound />} />
+    <Route path="/go" element={<Golang />}/>
+    <Route path="/c++" element={<Cplusplus />}/>
+    <Route path="/js" element={<JavaScript />}/>
+    <Route path="/py" element={<Python />}/>
+    <Route path="/btc" element={<Bitcoin />}/>
+    <Route path="/bnb" element={<BNB />} />
+
+  </Routes>
+    
+  )
 }
 
 export default App;

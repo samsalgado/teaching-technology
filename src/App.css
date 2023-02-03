@@ -6,13 +6,89 @@
   height: 40vmin;
   pointer-events: none;
 }
-
+.go {
+  align-items: left;
+    height: 25vmin;
+    width: fit-content;
+    position: relative;
+}
+.btc {
+  text-align: center;
+  position: static;
+}
+.container2 {
+  min-height: 100vh;
+  display: flex;
+  align-items:flex-start;
+}
+.gobtc {
+display: flex;
+align-items: center;
+margin: 20%;
+}
+.outline {
+  align-items: center;
+  margin-left: 30%;
+  margin-top: 0%;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
+.box {
+  border: 10px;
+  margin: 30px;
+  text-align: center;
+    margin: 20px auto;
+    margin-top: -5%;
+    display: flexbox;
+}
+.container {
+  margin: 100px auto;
+  text-align: center;
+  
+  width: 460px;
+  position: relative;
+      box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    height: 800px;
+    display:block;
+    grid-template-columns: 1fr 1fr;
+}
+.mail {
+  position: absolute;
+  width: max-content;
+}
+.header {
+  text-align: center;
+  margin-top: -12%;
+}
+.REACT {
+  margin-left:1rem;
+  width: fit-content;
+  margin-top: 40%;
+  padding: 40px;
+  padding-left: 200px;
+  margin-right: -30%;
+  margin-left: 0%;
+  margin-top: -10%;
+  align-items: center;
+}
+.Logo {
+  align-items: left;
+  height: 25vmin;
+  width: fit-content;
+  position: relative;
+}
+.contact {
+  text-align: right;
+    text-align: end;
+  position: relative;
+  left: -100px;
+      margin-right: 0%;
+  margin-top: -4%;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -27,7 +103,9 @@
 .App-link {
   color: #61dafb;
 }
-
+.pic {
+  height: 20vmin;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -35,4 +113,34 @@
   to {
     transform: rotate(360deg);
   }
+}
+.coursepic {
+  height: 50px;
+}
+.inputstyles {
+    border-radius: 5px;
+      background-color: #f2f2f2;
+      padding: 20px;
+}
+button[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=submit]:hover {
+  background-color: #45a049;
 }
