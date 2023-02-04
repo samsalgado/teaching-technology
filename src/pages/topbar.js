@@ -4,7 +4,8 @@ import '../App.css';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import bnb from '../pics/bnb.webp';
-import CourseList from '../courselist';
+import CourseList from '../courseList';
+
 const Topbar = () => {
   return (
  <div>
