@@ -5,7 +5,6 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import bnb from '../pics/bnb.webp';
 import '../courselist';
-import {Link} from 'react-router-dom';
 import CourseList from '../courselist';
 const Topbar = () => {
   return (

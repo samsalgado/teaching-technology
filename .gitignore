@@ -23,3 +23,5 @@ yarn-debug.log*
 yarn-error.log*
 courses.js
 courselist.js 
+# Local Netlify folder
+.netlify
