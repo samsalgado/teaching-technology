@@ -17,14 +17,14 @@ const Topbar = () => {
             </Navbar.Brand>
           <Nav className="me-auto">
             <Nav.Link href="/bnb">
-              BNB Course
+              BNB
               <img className='coursepic' src={bnb} alt="" />
               </Nav.Link>
-            <Nav.Link href="/c++">C++ Course
+            <Nav.Link href="/c++">C++
               <img className='coursepic' src={CourseList.cplusplus} alt="" />
 
             </Nav.Link>
-            <Nav.Link href="/js">NodeJS Course
+            <Nav.Link href="/js">NodeJS
             
             <img className='coursepic' src={CourseList.node} alt="" />
         
@@ -33,11 +33,11 @@ const Topbar = () => {
                <img className='coursepic' src={CourseList.bitcoin} alt="" />
 
             </Nav.Link>
-            <Nav.Link href="/go">Golang Course
+            <Nav.Link href="/go">Golang
                           <img className='coursepic' src={CourseList.golang} alt="" />
 
             </Nav.Link>
-            <Nav.Link href="/py">Python Course
+            <Nav.Link href="/py">Python
                           <img className='coursepic' src={CourseList.python} alt="" />
 
             </Nav.Link>
